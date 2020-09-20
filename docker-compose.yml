@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+    pg1:
+        build: .
+        volumes:
+            - ./data:/var/lib/postgresql/data
+        ports:
+            - 5432:5432
