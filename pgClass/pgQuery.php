@@ -56,7 +56,7 @@ use Exception;
             $result .= end($arr);
 
             $this->sql = $result;
-            //$this->clear();
+            $this->clear();
             return $this->sql;
         }
 
